@@ -1,0 +1,11 @@
+{
+  "name": "type-wallhaven",
+  "version": "1.0.0",
+  "description": "type-wallhaven-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lin <lzq199402@gmail.com>",
+  "license": "MIT"
+}
