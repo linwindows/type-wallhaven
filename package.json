@@ -3,9 +3,24 @@
   "version": "1.0.0",
   "description": "type-wallhaven-api",
   "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "load-wallhaven": "sec/index.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lin <lzq199402@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git:https://github.com/linwindows/type-wallhaven.git"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.7",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.3",
+    "proxy": "^1.0.2",
+    "qs": "^6.11.0"
+  }
 }
