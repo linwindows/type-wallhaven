@@ -3,7 +3,7 @@ interface R {
   meta?:object
 }
 
-interface searchParams {
+export interface searchParams {
   categories?: string,
   order?: "desc" | "asc",
   q?: string,
@@ -18,3 +18,6 @@ interface searchParams {
 }
 
 export function getData(params: searchParams):Promise<R>;
+export function formatCategory(params: string):string;
+export function formatPurity(params: string):string;
+

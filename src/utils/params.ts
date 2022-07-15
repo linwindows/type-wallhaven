@@ -1,5 +1,5 @@
 // 比例 颜色
-const searchMeta = {
+export const searchMeta:any = {
   order:[
       {value:"desc",label:"降序"},
       {value:"asc",label:"升序"},
@@ -77,4 +77,3 @@ const searchMeta = {
   ]
 };
 
-export default searchMeta;
