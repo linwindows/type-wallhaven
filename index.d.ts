@@ -20,4 +20,7 @@ export interface searchParams {
 export function getData(params: searchParams):Promise<R>;
 export function formatCategory(params: string):string;
 export function formatPurity(params: string):string;
+declare namespace searchMeta {
+  export let searchMeta:object
+}
 
