@@ -1,7 +1,7 @@
 {
-  "name": "type-wallhaven",
-  "version": "1.0.3",
-  "description": "type-wallhaven-api",
+  "name": "wallhaven-type-api",
+  "version": "1.0.0",
+  "description": "wallhaven-type-api",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
