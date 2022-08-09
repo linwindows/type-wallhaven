@@ -105,7 +105,7 @@ export const searchMeta = {
 
 export const formatCategory = (customParams) => {
   return ALL_CATEGORIES.map((cat) => {
-    return String(Number(customParams.categories.indexOf(cat) > -1));
+    return String(Number(customParams.category.indexOf(cat) > -1));
   }).join("");
 };
 export const formatPurity = (customParams) => {
